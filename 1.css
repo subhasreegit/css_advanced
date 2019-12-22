@@ -1,0 +1,173 @@
+body{
+margin:0px;
+padding:0px;
+}
+
+
+div.part1{
+position: relative;
+height: 70px;
+color: #008080;
+right: 50px;
+  
+}
+
+#part2{
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+color: #008080;
+}
+
+li{
+float: right;
+}
+
+#part2 a{
+display: block;
+color: blue;
+text-decoration: none;
+font-size: 20px;
+padding:10px 15px;
+margin-top: 17px;
+}
+
+div.header{
+background-color: #dddddd;
+}
+
+#logo{
+float: left;
+position: relative;
+top: 15px;
+left: 80px;
+width: 50px;
+height: auto;
+}
+
+a:hover{
+background-color: black;
+}  
+
+div.banner{
+padding: 20px ;
+background-color:#00BFFF;
+}
+
+#left{
+position: absolute;
+left: 80px;
+top: 105px;
+width: 40px;
+background:  #00BFFF;
+}
+
+#bannerText{
+text-align: center;
+color: white;
+}
+
+#right{
+position: absolute;
+right: 80px;
+top: 105px;
+width: 40px;
+background: black;
+}
+
+div.content{
+margin: 70px;
+margin-top: 10px;
+}
+
+div.feed{
+width: 35%;
+height: 383px;
+background-color: #ffff66;
+float: left;
+position: relative;
+}
+div.additional{
+margin-top: 10px;
+float:right;
+width: 64%;
+height: 155px;
+background-color:#7CFC00;
+}
+
+div.form{
+background-color:#f2800d;
+height: 215px;
+float: right;
+width: 64%;
+}
+
+
+
+
+div.float{
+position: absolute;
+top: 20px;
+left: -30px;
+background-color: #dab3ff;
+width: 60%;
+height: 260px;
+}
+
+input[type=submit]{
+padding: 10px;
+color: white;
+}
+
+div.element{
+margin: 20px;
+}
+
+input{
+display: block;
+background-color:#ff9900;
+padding: 5px;
+margin-bottom: 10px;
+border: 1px solid orange;
+}
+
+
+
+div.footer{
+margin-top: 10px;
+width: 100%;
+padding: 15px;
+background-color: #008080;
+height: 50px;
+position: fixed;
+bottom: 0px;
+list-style-type: none;
+text-align: center;
+}
+
+div.footer li:nth-child(2):after,li:nth-child(3):after,li:nth-child(4):after{
+content:"|";
+padding:40px;
+color:white;
+}
+
+div.part3{
+text-decoration: none;
+display: inline-block;
+}
+
+
+
+#part4 a{
+  text-decoration: none;
+  padding:5px;
+  color: white;
+}
+
+#part4{
+    list-style-type: none;
+    margin-right: 70px;
+  }
+
+

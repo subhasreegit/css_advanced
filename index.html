@@ -1,51 +1,66 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="1.css">
-<title>css_advanced_1</title>
+<title>thecss first assignment</title>
+<link rel="stylesheet" type="text/css" href="advan_css.css">
 </head>
 <body>
-<div class="header">
-<img id="logo" src="pictures/download.png" alt="logo ">
-<div class="part1" >
-<ul id="part2">
-<li><a href="#">Contact Us</a></li>
-<li><a href="#">Profile</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Home</a></li>
-</ul>
-</div>
-</div>
-<div class="banner">
-<img id="left" src="pictures/1.png" alt="left arrow">
-<img id="right" src="pictures/2.png" alt="right arrow">
-<h1 id="bannerText">BANNER</h1>
-</div>
-
-<div class="content">
-<div class="feed">
-<div class="float">
-</div>
-</div>
-<div class="form">
-<form class="element" action="" method="post">
-<input type="text" name="Name" value="" size="30%" autofocus>
-<input type="password" name="password" value="" size="30%">
-<input type="email" name="mail" value="" size="30%">
-<input type="submit" name="submit" value="Submit">
-</form>
-</div>
-<div class="additional">
-</div>
-</div>
-<div class="footer">
-<div class="part3">
-<ul id="part4">
-<li><a href="#">Contact Us</a></li>
-<li><a href="#">Profile</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Home</a></li>
-</ul>
-</div>
+<div id="main">
+	<div class="header">
+        <div class="logo">
+		<img src="pictures/download.png" width="60px">
+		</div>
+		<div class="navigationbar">
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<div id="leftArrow">
+			<img src="pictures/1.png" width="40px">
+		</div>
+		<div id="rightArrow">
+			<img src="pictures/2.png" width="40px">
+		</div>  
+		<div id="bannerText">
+			<h1>BANNER</h1>
+		</div> 
+		
+	</div>
+	<div class="content">
+		<div id="leftcontent">
+			<div id="left1"></div>
+			<div id="left2"></div>
+		</div>
+		<div id="rightcontent">
+			<div id="right1">
+				<form name="frm">
+					<input type="text" name="" class="boxes" style="width:60%">
+					<input type="text" name="" class="boxes" style="width:60%">
+					<select name="city" class="boxes" style="width:60%">
+						<option></option>
+						<option></option>
+					</select><br>
+					<input type="submit" name="" class="boxes" style="width:30%">
+				</form></div>
+			<div id="right2">
+				
+			</div>
+		</div>		
+	</div>	
+	<div class="footer">
+		<div id="bottombar" align="center">
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 </body>
 </html>
